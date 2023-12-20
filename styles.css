@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100Vh;
+
+    align-content: center;
+
+}
+ /* nave bar stiles*/
+#navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    margin:5%; 
+    padding: 10px;
+}
+
+#home{
+    color: #1bb0eb;
+}
+#feedback{
+    color: #1bb0eb;
+}
+#contact{
+    color: #1bb0eb;
+}
+#disabled{
+    color: gray;
+}
+
+/* icon Styles*/ 
+
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: larger;
+}
+
+svg{
+    width: 80%;
+    height: 80%;
+}
+
+.sections{
+    display: flex;
+    d
+}
