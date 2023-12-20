@@ -8,10 +8,9 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100Vh;
 
     align-content: center;
-
+    align-items: center;
 }
  /* nave bar stiles*/
 #navBar{
@@ -36,22 +35,54 @@ body{
     color: gray;
 }
 
-/* icon Styles*/ 
 
+/* icon Styles*/ 
 
 #icon{
     display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+}
+
+
+.bcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+span{
+    display: flex;
     justify-content: center;
     align-content: center;
-    font-size: larger;
+    width: 100vw;
+    height: 300px;
 }
 
 svg{
-    width: 80%;
-    height: 80%;
+    width: 300px;
+    height: 300px;
 }
 
-.sections{
+/* buttons styling */
+
+
+#buttons{
     display: flex;
-    d
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.bcontainer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
