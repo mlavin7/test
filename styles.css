@@ -13,13 +13,24 @@ body{
     align-items: center;
 }
  /* nave bar stiles*/
-#navBar{
+
+
+nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
     margin:5%; 
     padding: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    list-style-type: none;
+    font-size: 1.2rem;
+    
 }
 
 #home{
@@ -70,9 +81,10 @@ svg{
 
 #buttons{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: row; 
     width: 50vw;
+    justify-content: space-between;
+    
 }
 
 .bcontainer{
