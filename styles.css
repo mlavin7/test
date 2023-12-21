@@ -31,20 +31,17 @@ ul{
     list-style-type: none;
     font-size: 1.2rem;
     
+    
+    
+}
+li{
+    color: #1bb0eb;
 }
 
-#home{
-    color: #1bb0eb;
+li:hover{
+    color: gray
 }
-#feedback{
-    color: #1bb0eb;
-}
-#contact{
-    color: #1bb0eb;
-}
-#disabled{
-    color: gray;
-}
+
 
 
 /* icon Styles*/ 
